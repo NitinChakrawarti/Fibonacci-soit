@@ -11,8 +11,8 @@ export default function Footer() {
     return (
         <>
             <Fade duration="2000" >
-                <div className='text-text_light mt-20 pb-8 w-[100%] bg-primary opacity-75 flex justify-between'>
-                    <div className='pl-8  lg:px-32  md:pb-8 pt-14 text-3xl text-white flex lg:flex-row flex-col  gap-6'>
+                <div className='text-text_light mt-20 pb-8 md:px-10 bg-primary opacity-75 flex justify-between'>
+                    <div className='pl-8  lg:px-32  md:pb-20 pt-14 text-3xl text-white flex lg:flex-row flex-col md:gap-16 lg:gap-6 gap-6'>
                         <div className=" flex sm:flex-col flex-row lg:flex-col md:flex-row md:gap-20 sm:gap-0 lg:gap-2 gap-8">
                             <img className="w-[10vmax] rounded-lg" src={Logo} />
                             <div className="flex flex-col lg:gap-0 md:gap-10 gap-0 md:justify-center ">
@@ -25,8 +25,8 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className=" md:mt-16 lg:mt-0  mt-8">
-                            <div className="flex sm:flex-row flex-wrap lg:flex-row w-[100%] lg:justify-start gap-8 md:gap-12 lg:gap-36 lg:pl-24">
-                                <div className=" flex flex-row gap-8 md:gap-12 lg:gap-36 ">
+                            <div className="flex sm:flex-row flex-wrap lg:flex-row w-[100%] lg:justify-start gap-8 md:gap-36 lg:gap-20 lg:pl-24">
+                                <div className=" flex flex-row gap-8 md:gap-32 lg:gap-20 ">
                                     <div className=" md:w-auto w-[16vmax]">
                                         <h1 className="lg:text-[1.9vmax] md:text-[3vmax] text-text_dark/90 font-bold">Pages</h1>
                                         <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-0 pt-4 md:pt-8 ">
@@ -70,7 +70,6 @@ export default function Footer() {
         </>
     )
 }
-
 
 
 
