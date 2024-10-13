@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="pt-28 ">
+      <div className="pt-40">
         <div className="contact_us_header text-center text-[2vmax] font-bold flex justify-center">
           <p>Having Any Query Directly <br></br>
             Contact Us
