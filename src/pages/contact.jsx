@@ -18,7 +18,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key",`${import.meta.env.VITE_KEY_FORMAPI}`);
+    formData.append("access_key", `${import.meta.env.VITE_KEY_FORMAPI}`);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -41,8 +41,9 @@ const Contact = () => {
 
       var btn = document.getElementById("btn");
       var btnText = document.getElementById("btnText");
-      btnText.innerHTML = "Thanks";
+      btnText.innerHTML = "Done";
       btn.classList.add("active");
+      btn.classList.add("pl-8");
 
     }
   };
@@ -58,10 +59,12 @@ const Contact = () => {
         </div>
         <div className=" bg-black">
           <Fade duration={1400}>
-            <div className="contact_us_body lg:-mb-12 flex  lg:flex-row flex-col justify-center md:items-center items-center lg:items-start  lg:pl-0  bg-black ">
-              <div className="contact_left mt-8 flex flex-col gap-4 justify-center lg:justify-start items-center lg:items-start">
-                <FaMessage size="10vmax" color="#55e6a4" />
-                <h3 className="text-[1vmax]">Contact Info</h3>
+            <div className="contact_us_body lg:-mb-12 flex  lg:flex-row flex-col md:flex-col justify-center md:items-start md:px-10 flex-wrap items-center lg:items-start  lg:pl-0  bg-black ">
+              <div className="contact_left md:w-fit lg:mt-8 md:mt-32 flex flex-col gap-4 justify-center lg:justify-start px-8 items-start">
+                <p className="lg:text-[10vmax] text-[6vmax] "> <FaMessage color="#55e6a4" />
+                </p>
+
+                <p className="md:text-[2vmax] lg:text-[1vmax] md:font-bold">Contact Info</p>
                 <p className="flex items-center gap-4">
                   <FaMap size="1.8vmax" />
                   <span className="text-[1.5vmax] font-bold md:text-nowrap ">RGPV University, Bhopal</span>
@@ -75,7 +78,7 @@ const Contact = () => {
                       window.location.href = "mailto:fibonacciclubsoit@gmail.com";
                       e.preventDefault();
                     }}
-                    className="text-[1.5vmax] font-bold"
+                    className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
                   >
                     fibonacciclubsoit@gmail.com
                   </Link>
@@ -89,34 +92,34 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="contact-box " style={{ display: send ? "none" : "block" }} >
-                <form onSubmit={formSubmit}>
-                  <div className="user-box">
-                    <input value={name}
+              <div className="contact-box md:mt-32 lg:mt-12 md:w-[41vmax] lg:w-[35vmax] md:text-[2vmax] lg:text-[1.5vmax]" style={{ display: send ? "none" : "block" }} >
+                <form onSubmit={formSubmit} className="flex flex-col md:gap-10 lg:gap-0">
+                  <div className="user-box ">
+                    <input className=" " value={name}
                       onChange={(e) => setname(e.target.value)}
                       type="text" name="name" required />
-                    <label >Name</label>
+                    <label className=" lg:text-[1vmax]"  >Name</label>
                   </div>
-                  <div className="user-box">
-                    <input value={email}
+                  <div className="user-box ">
+                    <input className=" " value={email}
                       onChange={(e) => setemail(e.target.value)}
                       type="email" name="email" required />
-                    <label >Email</label>
+                    <label className=" lg:text-[1vmax]"  >Email</label>
                   </div>
-                  <div className="user-box">
-                    <input value={number}
+                  <div className="user-box ">
+                    <input className=" " value={number}
                       onChange={(e) => setnumber(e.target.value)}
                       type="number" name="number" min="1000000000" max="9999999999" required />
-                    <label >Mobile no.</label>
+                    <label className=" lg:text-[1vmax]"  >Mobile no.</label>
                   </div>
-                  <div className="user-box">
-                    <input value={message}
+                  <div className="user-box ">
+                    <input className=" " value={message}
                       onChange={(e) => setmessage(e.target.value)}
                       type="text" name="message" required />
-                    <label>Message</label>
+                    <label className=" lg:text-[1vmax]" >Message</label>
                   </div>
-                  <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} />
-                  <button id="btn" type="submit" className="pl-2 w-[10vmax] text-[1.4vmax] border-2 bg-white text-black font-bold hover:bg-white/50 ">
+                  <input className="  hidden" type="checkbox" name="botcheck" style={{ display: "none" }} />
+                  <button id="btn" type="submit" className=" w-[16vmax] lg:w-[10vmax] lg:py-0 md:py-10 flex items-center justify-evenly py-6 text-[2.6vmax] lg:text-[1.4vmax] border-2 bg-white text-black font-bold hover:bg-white/50 ">
                     <p id="btnText">Submit</p>
                     <div className="checked">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
