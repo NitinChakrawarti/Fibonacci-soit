@@ -4,10 +4,10 @@ import logo from '../assets/logofibo.png'
 const Team = () => {
   return (
     <>
-      <div className="pt-40 pb-18">
+      <div className=" pb-18">
         <div className="px-10 lg:px-36 flex lg:flex-row flex-col justify-between">
           <div className="">
-            <h1 className=" sticky top-[6.0vmax] font-bold underline underline-offset-8  decoration-text_light text-[3vmax] text-white bg-black z-30">
+            <h1 className=" sticky top-[6.0vmax] font-bold underline underline-offset-8  decoration-text_light text-[3vmax] text-white bg-bg_Primary z-20">
               Meet Our Team
             </h1>
             <div className="sticky top-[12.0vmax] z-10 ">

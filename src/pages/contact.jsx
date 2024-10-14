@@ -18,7 +18,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key",`${import.meta.env.VITE_KEY_FORMAPI}`);
+    formData.append("access_key", `${import.meta.env.VITE_KEY_FORMAPI}`);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -41,8 +41,9 @@ const Contact = () => {
 
       var btn = document.getElementById("btn");
       var btnText = document.getElementById("btnText");
-      btnText.innerHTML = "Thanks";
+      btnText.innerHTML = "Done";
       btn.classList.add("active");
+      btn.classList.add("pl-8");
 
     }
   };
@@ -50,18 +51,20 @@ const Contact = () => {
 
   return (
     <>
-      <div className="pt-28 ">
+      <div className="md:pt-28 lg:pt-0 pt-10">
         <div className="contact_us_header text-center text-[2vmax] font-bold flex justify-center">
           <p>Having Any Query Directly <br></br>
             Contact Us
           </p>
         </div>
-        <div className=" bg-black">
+        <div className=" lg:px-32 bg-bg_Primary">
           <Fade duration={1400}>
-            <div className="contact_us_body lg:-mb-12 flex  lg:flex-row flex-col justify-center md:items-center items-center lg:items-start  lg:pl-0  bg-black ">
-              <div className="contact_left mt-8 flex flex-col gap-4 justify-center lg:justify-start items-center lg:items-start">
-                <FaMessage size="10vmax" color="#55e6a4" />
-                <h3 className="text-[1vmax]">Contact Info</h3>
+            <div className="contact_us_body flex  lg:flex-row flex-col md:flex-col justify-between md:items-center  flex-wrap items-center lg:items-start  lg:pl-0  ">
+              <div className="contact_left h-auto lg:mt-8 md:mt-32 flex flex-col gap-4 justify-center md:justify-start px-6 lg:px-0 items-start">
+                <p className="lg:text-[10vmax] text-[6vmax] "> <FaMessage color="#55e6a4" />
+                </p>
+
+                <p className="md:text-[2vmax] lg:text-[1.8vmax] md:font-bold">Contact Info</p>
                 <p className="flex items-center gap-4">
                   <FaMap size="1.8vmax" />
                   <span className="text-[1.5vmax] font-bold md:text-nowrap ">RGPV University, Bhopal</span>
@@ -75,48 +78,48 @@ const Contact = () => {
                       window.location.href = "mailto:fibonacciclubsoit@gmail.com";
                       e.preventDefault();
                     }}
-                    className="text-[1.5vmax] font-bold"
+                    className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
                   >
                     fibonacciclubsoit@gmail.com
                   </Link>
                 </p>
                 <div className="pt-4 mt-16 border-t-2 lg:mr-36">
                   <ul className="text-primary flex flex-row gap-8 pt-4">
-                    <Link to="https://www.linkedin.com/in/fibonacci-soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark   text-[1.4vmax] flex items-center gap-4 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
-                    <Link to="https://www.instagram.com/fibonacci_soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-4  text-[1.4vmax] font-bold"><FaInstagram size="1.5rem" /> Instagram</Link>
-                    <Link to="https://chat.whatsapp.com/FtTMIleQ34e5ITHF5JUv4w" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-4 hover: text-[1.4vmax] font-bold"><FaWhatsapp size="1.5rem" /> WhatsApp</Link>
+                    <Link to="https://www.linkedin.com/in/fibonacci-soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark   text-[1.4vmax] flex items-center gap-1 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
+                    <Link to="https://www.instagram.com/fibonacci_soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-1  text-[1.4vmax] font-bold"><FaInstagram size="1.5rem" /> Instagram</Link>
+                    <Link to="https://chat.whatsapp.com/FtTMIleQ34e5ITHF5JUv4w" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-1 hover: text-[1.4vmax] font-bold"><FaWhatsapp size="1.5rem" /> WhatsApp</Link>
                   </ul>
                 </div>
               </div>
 
-              <div className="contact-box " style={{ display: send ? "none" : "block" }} >
-                <form onSubmit={formSubmit}>
-                  <div className="user-box">
-                    <input value={name}
+              <div className="contact-box md:mt-32 lg:mt-12 w-[40vmax] lg:w-[40vmax] md:text-[2vmax] lg:text-[1.5vmax]" style={{ display: send ? "none" : "block" }} >
+                <form onSubmit={formSubmit} className="flex flex-col md:gap-10 lg:gap-0">
+                  <div className="user-box ">
+                    <input className=" md:text-[2vmax] lg:text-[1vmax]  " value={name}
                       onChange={(e) => setname(e.target.value)}
                       type="text" name="name" required />
-                    <label >Name</label>
+                    <label className="md:text-[1vmax] lg:text-[1vmax]"  >Name</label>
                   </div>
-                  <div className="user-box">
-                    <input value={email}
+                  <div className="user-box ">
+                    <input className=" md:text-[2vmax] lg:text-[1vmax]  " value={email}
                       onChange={(e) => setemail(e.target.value)}
                       type="email" name="email" required />
-                    <label >Email</label>
+                    <label className="md:text-[1vmax] lg:text-[1vmax]"  >Email</label>
                   </div>
-                  <div className="user-box">
-                    <input value={number}
+                  <div className="user-box ">
+                    <input className=" md:text-[2vmax] lg:text-[1vmax]  " value={number}
                       onChange={(e) => setnumber(e.target.value)}
                       type="number" name="number" min="1000000000" max="9999999999" required />
-                    <label >Mobile no.</label>
+                    <label className="md:text-[1vmax] lg:text-[1vmax]"  >Mobile no.</label>
                   </div>
-                  <div className="user-box">
-                    <input value={message}
+                  <div className="user-box ">
+                    <input className=" md:text-[2vmax] lg:text-[1vmax]  " value={message}
                       onChange={(e) => setmessage(e.target.value)}
                       type="text" name="message" required />
-                    <label>Message</label>
+                    <label className="md:text-[1vmax] lg:text-[1vmax]" >Message</label>
                   </div>
-                  <input type="checkbox" name="botcheck" className="hidden" style={{ display: "none" }} />
-                  <button id="btn" type="submit" className="pl-2 w-[10vmax] text-[1.4vmax] border-2 bg-white text-black font-bold hover:bg-white/50 ">
+                  <input className=" md:text-[2vmax]   hidden" type="checkbox" name="botcheck" style={{ display: "none" }} />
+                  <button id="btn" type="submit" className=" w-[16vmax] lg:w-[10vmax] lg:py-0 md:py-10 flex items-center justify-evenly py-6 text-[2.6vmax] lg:text-[1.4vmax] border-2 bg-white text-black font-bold hover:bg-white/50 ">
                     <p id="btnText">Submit</p>
                     <div className="checked">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">

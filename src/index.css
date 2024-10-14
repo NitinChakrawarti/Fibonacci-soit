@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 body{
-    font-family: 'Poppins', sans-serif;
-    background-color:black;
+    font-family: "Montserrat", sans-serif ;
+    background-color:rgb(4, 9, 4);
     color: white ;
 }
 
@@ -61,10 +62,36 @@ body{
 }
 
 
+/* .glow_btn{
+    box-shadow: 0 0 5px #55e6a4, 0 0 10px #55e6a4, 0 0 15px #55e6a4, 0 0 50px #55e6a4;
+}*/
 .glow_btn{
-    box-shadow: 0 0 5px #55e6a4, 0 0 10px #55e6a4, 0 0 15px #55e6a4, 0 0 50px #55e6a4;
+    box-shadow: 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 10px #55e6a4;
 }
-.glow_btn_hover:hover{
-    box-shadow: 0 0 5px #55e6a4, 0 0 10px #55e6a4, 0 0 15px #55e6a4, 0 0 50px #55e6a4;
+.hoverBtn:hover{
+    box-shadow: 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 10px #55e6a4;
 }
 
+.glow_btn_hover {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .glow_btn_hover::after {
+    content: '';
+    position: absolute;
+    width: 110%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -4px;
+    left: 0;
+    
+    background-color: #55e6a4;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .glow_btn_hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

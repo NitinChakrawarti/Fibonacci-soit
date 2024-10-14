@@ -42,7 +42,7 @@ const Flipcard = () => {
 
     return (
         <div className='overflow-hidden '>
-            <div className='flex md:flex-row  flex-wrap items-start justify-center gap-2 md:gap-10'>
+            <div className='flex md:flex-row  flex-wrap items-start gap-2 lg:gap-6 md:justify-center md:gap-6 lg:justify-between '>
                 {benefitsData.map((benefit, index) => (
                     <ReactCardFlip
                         key={index}
