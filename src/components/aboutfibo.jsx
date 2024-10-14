@@ -31,7 +31,6 @@ const Aboutfibo = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

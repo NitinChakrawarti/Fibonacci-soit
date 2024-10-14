@@ -44,7 +44,7 @@ export default function Footer() {
                                     Social Links
                                 </h1>
                                 <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-0 pt-4 md:pt-8">
-                                    <Link to="https://www.linkedin.com/in/fibonacci-soit/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] flex items-center gap-4 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
+                                    <Link to="https://www.linkedin.com/company/fibonacci-soit/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] flex items-center gap-4 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
                                     <Link to="https://www.instagram.com/fibonacci_soit/" className="flex items-center gap-4 hover:text-text_dark text-[1.9vmax] lg:text-[1.2vmax] font-bold"><FaInstagram size="1.5rem" /> Instagram</Link>
                                     <Link to="https://chat.whatsapp.com/FtTMIleQ34e5ITHF5JUv4w" className="flex items-center gap-4 hover:text-text_dark text-[1.9vmax] lg:text-[1.2vmax] font-bold"><FaWhatsapp size="1.5rem" /> WhatsApp</Link>
                                 </ul>

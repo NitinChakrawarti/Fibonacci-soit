@@ -80,14 +80,14 @@ const Contact = () => {
                       e.preventDefault();
                     }}
                     className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
-                    className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
+                   
                   >
                     fibonacciclubsoit@gmail.com
                   </Link>
                 </p>
                 <div className="pt-4 mt-16 border-t-2 lg:mr-36">
                   <ul className="text-primary flex flex-row gap-8 pt-4">
-                    <Link to="https://www.linkedin.com/in/fibonacci-soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark   text-[1.4vmax] flex items-center gap-1 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
+                    <Link to="https://www.linkedin.com/company/fibonacci-soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark   text-[1.4vmax] flex items-center gap-1 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
                     <Link to="https://www.instagram.com/fibonacci_soit/" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-1  text-[1.4vmax] font-bold"><FaInstagram size="1.5rem" /> Instagram</Link>
                     <Link to="https://chat.whatsapp.com/FtTMIleQ34e5ITHF5JUv4w" className="  duration-300 hover:drop-shadow-custom-glow  hover:text-text_dark flex items-center gap-1 hover: text-[1.4vmax] font-bold"><FaWhatsapp size="1.5rem" /> WhatsApp</Link>
                   </ul>
