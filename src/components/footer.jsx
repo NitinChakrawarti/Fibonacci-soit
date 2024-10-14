@@ -19,7 +19,7 @@ export default function Footer() {
                             <h1 className="font-extrabold  md:pt-4 md:text-[4vmax]  lg:text-[2vmax] text-text_dark">
                                 Fibonacci
                             </h1>
-                            <p className="lg:text-[1.3vmax] text-[1.9vmax] text-text_dark/60 font-bold lg:leading-7"> School Of Information
+                            <p className="lg:text-[1.3vmax] text-[1.9vmax] lg:w-[20vmax] text-text_dark/60 font-bold lg:leading-7"> School Of Information
                                 <br></br> Technology RGPV, Bhopal
                             </p>
                         </div>
