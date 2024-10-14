@@ -21,8 +21,7 @@ const Aboutfibo = () => {
                         <div className="lg:w-[50%]">
                             <Fade duration={1000} >
                                 <p className=' text-[1.9vmax] md:text-[1.3vmax] md:text-center lg:text-left md:leading-10 leading-7 pt-0  font-medium text-bg_Primary/80 ' >
-                                    Fibonacci is a rapidly growing coding community dedicated to empower
-                                    developers and encouraging a culture of continuous learning.
+                                    Fibonacci is a rapidly growing coding community dedicated to empowering and encouraging developers and encouraging a culture of continuous learning.
                                     Fibonacci aims to provide a comprehensive learning environment where
                                     members can enhance their coding skills, exchange knowledge, and
                                     solve complex algorithmic challenges.
