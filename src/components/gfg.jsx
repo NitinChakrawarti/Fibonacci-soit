@@ -27,7 +27,7 @@ const Gfg = () => {
                         </Fade>
                         <Fade duration={2000}   >
                             <div className="flex gap-4 mt-8 md:mt-0">
-                                <button className="  md:mt-10 w-[9vmax] font-bold text-[1.2vmax] text-text_dark bg-primary/90 flex flex-col items-center md:leading-10 leading-7 py-0 rounded-lg border-[1px] border-text_white  lg:pt-1 hover:text-white hoverBtn">
+                                <button className="  md:mt-10 w-[9vmax] font-bold text-[1.2vmax] text-text_dark bg-primary/90 flex flex-col items-center md:leading-10 leading-7 py-0 md:pt-3 rounded-lg border-[1px] border-text_white  lg:pt-1 hover:text-white hoverBtn">
                                     <Link to='https://www.geeksforgeeks.org/ ' target='_blank'> Join Now </Link>
                                 </button>
                                 <button className=" md:mt-10  font-bold text-[1.2vmax] text-primary  flex flex-col items-center md:leading-10 leading-7 py-0 lg:py-1 rounded-lg border-[1px] hover:text-white border-text_white lg:pt-1">
