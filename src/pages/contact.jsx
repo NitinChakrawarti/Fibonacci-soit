@@ -19,6 +19,7 @@ const Contact = () => {
     const formData = new FormData(event.target);
 
     formData.append("access_key", `${import.meta.env.VITE_KEY_FORMAPI}`);
+    formData.append("access_key", `${import.meta.env.VITE_KEY_FORMAPI}`);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -78,6 +79,7 @@ const Contact = () => {
                       window.location.href = "mailto:fibonacciclubsoit@gmail.com";
                       e.preventDefault();
                     }}
+                    className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
                     className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
                   >
                     fibonacciclubsoit@gmail.com

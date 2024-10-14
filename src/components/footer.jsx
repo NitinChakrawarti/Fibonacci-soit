@@ -70,14 +70,3 @@ export default function Footer() {
         </>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
