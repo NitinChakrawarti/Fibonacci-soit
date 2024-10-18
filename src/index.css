@@ -10,14 +10,6 @@ body {
     color: white;
 }
 
-/* button{
-    @apply hover:bg-primary/80 shadow-cyan-500/50;
-} */
-
-::selection {
-    background-color: transparent;
-
-}
 
 #particlesAnime {
     height: 200px !important;
