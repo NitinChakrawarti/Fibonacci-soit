@@ -6,7 +6,7 @@ import { MdMail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
-
+import ScrollToTop from "react-scroll-to-top";
 const Contact = () => {
   const [send, setSend] = useState(false);
   const [name, setname] = useState("");
@@ -53,6 +53,8 @@ const Contact = () => {
   return (
     <>
       <div className="md:pt-28 lg:pt-0 pt-10">
+                  <ScrollToTop smooth color="#55e6a4 " />
+
         <div className="contact_us_header text-center text-[2vmax] font-bold flex justify-center">
           <p>Having Any Query Directly <br></br>
             Contact Us
@@ -80,7 +82,7 @@ const Contact = () => {
                       e.preventDefault();
                     }}
                     className="text-[1.8vmax] lg:text-[1.5vmax] font-bold"
-                   
+
                   >
                     fibonacciclubsoit@gmail.com
                   </Link>

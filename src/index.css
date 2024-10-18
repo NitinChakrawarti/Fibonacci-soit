@@ -4,22 +4,22 @@
 @tailwind utilities;
 
 
-body{
-    font-family: "Montserrat", sans-serif ;
-    background-color:rgb(4, 9, 4);
-    color: white ;
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(4, 9, 4);
+    color: white;
 }
 
 /* button{
     @apply hover:bg-primary/80 shadow-cyan-500/50;
 } */
 
-::selection{
+::selection {
     background-color: transparent;
-    
+
 }
 
-#particlesAnime{
+#particlesAnime {
     height: 200px !important;
     width: 100%;
 }
@@ -29,7 +29,7 @@ body{
 .auto_scroll_activity_section {
     display: flex;
     animation: swipe var(--speed) linear infinite backwards;
-    
+
 }
 
 @keyframes swipe {
@@ -42,42 +42,43 @@ body{
     }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #55e6a4;
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
     background-color: #1A202C;
     border-radius: 10px;
 }
 
-.scroll-to-top{
-    @apply flex justify-center items-center md:mr-20
+.scroll-to-top {
+    @apply flex justify-center items-center md:mr-20 z-40
 }
 
 
 /* .glow_btn{
     box-shadow: 0 0 5px #55e6a4, 0 0 10px #55e6a4, 0 0 15px #55e6a4, 0 0 50px #55e6a4;
 }*/
-.glow_btn{
+.glow_btn {
     box-shadow: 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 10px #55e6a4;
 }
-.hoverBtn:hover{
+
+.hoverBtn:hover {
     box-shadow: 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 2px #55e6a4, 0 0 10px #55e6a4;
 }
 
 .glow_btn_hover {
     display: inline-block;
     position: relative;
-  }
-  
-  .glow_btn_hover::after {
+}
+
+.glow_btn_hover::after {
     content: '';
     position: absolute;
     width: 110%;
@@ -85,13 +86,31 @@ body{
     height: 3px;
     bottom: -4px;
     left: 0;
-    
+
     background-color: #55e6a4;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
-  
-  .glow_btn_hover:hover::after {
+}
+
+.glow_btn_hover:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
+
+
+
+/* applying gradient color to fibohack page1 */
+
+
+.bg_gradient {
+    background: rgb(85,230,164);
+    background: linear-gradient(90deg, rgba(85,230,164,1) 0%, rgb(142, 216, 183) 48%, rgb(202, 221, 231) 100%);
+
+}
+.bg_gradient:hover {
+    background: rgb(85,230,164);
+    background: linear-gradient(90deg, rgba(85,230,164,1) 0%, rgb(142, 216, 183) 48%, rgba(85,230,164,1) 100%);
+
+    animation-duration: 2s;
+    /* transition: all 2s; */
+}

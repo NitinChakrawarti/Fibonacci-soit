@@ -18,11 +18,12 @@ const Gfg = () => {
                     <div className="w-[100%] lg:w-[50%] flex flex-col lg:items-start md:items-center ">
                         <Fade duration={2000}  >
                             <p className='text-[1.9vmax]  md:text-[1.3vmax] md:text-center  lg:text-left md:leading-10 leading-7'>
-                                GeeksforGeeks is a leading platform that provides computer science
+                                {/* GeeksforGeeks is a leading platform that provides computer science
                                 resources and coding challenges for programmers and technology
                                 enthusiasts. With a strong emphasis on enhancing coding skills and
                                 knowledge, it has become a trusted destination for over 12 million plus
-                                registered users worldwide.
+                                registered users worldwide. */}
+                                GeeksforGeeks is a leading platform that provides computer science resources and coding challenges for programmers and technology enthusiasts. With a vision to bridge the gap between theory and individual GeeksforGeeks upholds its motto:
                             </p>
                         </Fade>
                         <Fade duration={2000}   >
@@ -40,7 +41,7 @@ const Gfg = () => {
 
                     <div className="flex flex-row ">
                         <Fade duration={2000} >
-                            <img className="w-[30vmax] rounded-md" src="https://media.geeksforgeeks.org/wp-content/uploads/20231228172727/gfg-image.jpg" />
+                            <img className="w-[25vmax] rounded-md" src="https://media.geeksforgeeks.org/wp-content/uploads/20231228172727/gfg-image.jpg" />
                         </Fade>
                     </div>
                 </div>

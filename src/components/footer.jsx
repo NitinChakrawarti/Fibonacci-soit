@@ -29,13 +29,12 @@ export default function Footer() {
                         <div className=" flex flex-row gap-8 md:gap-20 lg:gap-36 ">
                             <div className=" md:w-auto w-[16vmax]">
                                 <h1 className="lg:text-[1.9vmax] md:text-[3vmax] text-[2.6vmax] text-text_dark/90 font-bold">Pages</h1>
-                                <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-0 pt-4 md:pt-8 ">
+                                <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-2 pt-4 md:pt-8 ">
                                     <Link to="/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Home</Link>
-                                    {/* <Link to="/about" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  About</Link> */}
+                                  
                                     <Link to="/team" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Team</Link>
                                     <Link to="/contact" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Contact</Link>
-                                    {/* <Link to="/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Privacy Policy</Link>
-                                            <Link to="/about" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Disclaimer</Link> */}
+                              
                                 </ul>
                             </div>
 
@@ -43,7 +42,7 @@ export default function Footer() {
                                 <h1 className="lg:text-[1.9vmax] md:text-[3vmax] text-[2.6vmax] text-text_dark/90 font-bold ">
                                     Social Links
                                 </h1>
-                                <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-0 pt-4 md:pt-8">
+                                <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-2 pt-4 md:pt-8">
                                     <Link to="https://www.linkedin.com/company/fibonacci-soit/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] flex items-center gap-4 font-bold"> <FaLinkedin size="1.5rem" /> LinkedIn </Link>
                                     <Link to="https://www.instagram.com/fibonacci_soit/" className="flex items-center gap-4 hover:text-text_dark text-[1.9vmax] lg:text-[1.2vmax] font-bold"><FaInstagram size="1.5rem" /> Instagram</Link>
                                     <Link to="https://chat.whatsapp.com/FtTMIleQ34e5ITHF5JUv4w" className="flex items-center gap-4 hover:text-text_dark text-[1.9vmax] lg:text-[1.2vmax] font-bold"><FaWhatsapp size="1.5rem" /> WhatsApp</Link>
@@ -52,7 +51,7 @@ export default function Footer() {
                         </div>
                         <div className=" md:w-auto lg:w-[16vmax]">
                             <h1 className="lg:text-[1.9vmax] md:text-[3vmax] text-[2.6vmax] text-text_dark/90 font-bold">Past Events</h1>
-                            <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-0 pt-4 md:pt-8">
+                            <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-2 pt-4 md:pt-8">
                                 <Link to="/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />Deekhsharambh'24 </Link>
                                 <Link to="/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Hack-in Bhopal</Link>
                             </ul>

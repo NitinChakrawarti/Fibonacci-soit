@@ -7,11 +7,14 @@ import About from './pages/about.jsx'
 import Team from './pages/team.jsx'
 import Contact from './pages/contact.jsx'
 import Fibohack from './pages/fibohack.jsx'
+import EventPopup from '../src/components/eventpopup.jsx'
 function App() {
+
   return (
     <>
       <div>
         <Nav />
+        <EventPopup />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

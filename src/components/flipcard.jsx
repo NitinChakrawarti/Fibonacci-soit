@@ -62,9 +62,9 @@ const Flipcard = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             <img className="w-[8vmax]" src={benefit.image} alt={benefit.title} />
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-4">
 
-                                <h1 className='font-bold text-[1.5vmax] md:leading-none leading-3'>{benefit.title}</h1>
+                                <h1 className='font-bold text-[1.5vmax] md:leading-none leading-3 text-white'>{benefit.title}</h1>
                                 <p className='md:text-[1.1vmax] text-[1.2vmax] px-2 md:leading-none leading-3  '>{benefit.description}</p>
                             </div>
 

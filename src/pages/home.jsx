@@ -7,18 +7,15 @@ import Gfg from '../components/gfg';
 const Home = () => {
   return (
     <>
+      {/* <EventPopup /> */}
       <Main_home />
       <Aboutfibo />
       <Gfg />
       <Benefits />
       <Activities />
-      
-      
     </>
-
   )
 }
-
 export default Home
 
 

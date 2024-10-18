@@ -3,111 +3,6 @@ import Particles, { initParticlesEngine } from '@tsparticles/react'
 import { loadSlim } from '@tsparticles/slim'
 
 export default function Particle_animation() {
-    // const [init, setInit] = useState(false);
-
-    // // this should be run only once per application lifetime
-    // useEffect(() => {
-    //     initParticlesEngine(async (engine) => {
-    //         await loadSlim(engine);
-    //     }).then(() => {
-    //         setInit(true);
-    //     });
-    // }, []);
-
-    // const particlesLoaded = (container) => {
-    //     console.log(container);
-    // };
-
-    // const options = useMemo(
-    //     () => ({
-    //         background: {
-    //             color: {
-    //                 value: "#00000",
-    //             },
-    //         },
-    //         fpsLimit: 120,
-    //         interactivity: {
-    //             events: {
-    //                 onClick: {
-    //                     enable: true,
-    //                     mode: "push",
-    //                 },
-    //                 onHover: {
-    //                     enable: true,
-    //                     mode: "repulse",
-    //                 },
-    //             },
-    //             modes: {
-    //                 push: {
-    //                     quantity: 4,
-    //                 },
-    //                 repulse: {
-    //                     distance: 200,
-    //                     duration: 0.4,
-    //                 },
-    //             },
-    //         },
-    //         particles: {
-    //             color: {
-    //                 value: "#fffafa",
-    //             },
-    //             links: {
-    //                 // color: "#41b583",
-    //                 distance: 150,
-    //                 enable: true,
-    //                 opacity: 0.5,
-    //                 width: 1,
-    //             },
-    //             move: {
-    //                 direction: "top",
-    //                 enable: true,
-    //                 // outModes: {
-    //                 //     default: "bounce",
-    //                 // },
-
-    //                 random: false,
-    //                 speed: 6,
-    //                 straight: true,
-    //             },
-    //             number: {
-    //                 density: {
-    //                     enable: true,
-    //                 },
-    //                 value: 80,
-    //             },
-    //             opacity: {
-    //                 value: 0.5,
-    //             },
-    //             shape: {
-    //                 type: "circle",
-    //             },
-    //             size: {
-    //                 value: { min: 1, max: 5 },
-    //             },
-    //         },
-    //         detectRetina: true,
-    //     }),
-    //     [],
-    // );
-
-    // if (init) {
-    //     return (
-    //         <div className="w-full">
-    //             <div className="h-40 p-6 mb-8 mt-0 absolute" id='particlesAnime'>
-    //                 <Particles
-    //                     id="tsparticles"
-    //                     particlesLoaded={particlesLoaded}
-    //                     options={options}
-    //                 />
-    //             </div>
-    //         </div>
-    //     );
-    // }
-
-    // return null;}
-
-
-
 
     const [init, setInit] = useState(false);
 
@@ -122,9 +17,39 @@ export default function Particle_animation() {
     const options = useMemo(
         () => ({
             fpsLimit: 120,
-            interactivity: {},
+            interactivity: {
+                events: {
+                    onHover: {
+                        enable: true,
+                        mode: 'grab', // Can be "repulse", "bubble", "grab"
+                    },
+                    onClick: {
+                        enable: true,
+                        mode: 'repulse', // Changed from "push" to "repulse" for more visual effect
+                    },
+                    resize: true,
+                },
+                modes: {
+                    grab: {
+                        distance: 300, // Increased grab distance
+                        links: {
+                            opacity: 0.5, // Higher opacity when grabbed
+                        },
+                    },
+                    repulse: {
+                        distance: 400, // Increased repulse distance
+                        duration: 0.8, // Increased duration for repulse effect
+                    },
+                    push: {
+                        quantity: 6, // Increased the number of particles spawned on click
+                    },
+                    remove: {
+                        quantity: 2,
+                    },
+                },
+            },
             background: {
-                color: "#000000",
+                color: "#040904",
             },
             fullScreen: {
                 enable: true,
@@ -141,11 +66,11 @@ export default function Particle_animation() {
                     color: "#41b583",
                     distance: 150,
                     enable: true,
-                    opacity: 0.3,
+                    opacity: 0.2,
                     width: 1,
                 },
                 number: {
-                    value: 40,
+                    value: 80,
                 },
                 opacity: {
                     value: { min: 0.1, max: 0.2 },
@@ -160,8 +85,8 @@ export default function Particle_animation() {
                 move: {
                     direction: "top",
                     enable: true,
-                    speed: { min: 0, max: 2 },
-                    straight: true,
+                    speed: { min: 0, max: 4 },
+                    straight: false,
                 },
             },
             detectRetina: true,
@@ -170,10 +95,10 @@ export default function Particle_animation() {
     );
 
     return (
-     
-                <div className="h-24 relative">
-                    <Particles options={options} />
-                </div>
+
+        <div className=" h-full relative">
+            <Particles options={options} />
+        </div>
     );
 };
 
