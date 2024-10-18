@@ -9,13 +9,13 @@ import coding3 from '../assets/fibohack/codingpng3.svg';
 import { Link } from 'react-router-dom';
 import Timeline from '../components/timeline';
 import Prizes from '../components/prices';
-// import Partners from '../components/partner';
-// import Sponsers from '../components/sponsers';
+import Partners from '../components/partner';
+import Sponsers from '../components/sponsers';
 import workuprise from '../assets/fibohack/wu.jpg';
 import lnct from '../assets/fibohack/lnct.jpg';
 import moonsrobe from '../assets/fibohack/moonsrobe.png';
 import G_G from '../assets/fibohack/GG_Logo.png';
-import bhopaldao from '../assets/fibohack/Vector-1.png';
+// import bhopaldao from '../assets/fibohack/Vector-1.png';
 import gdg from '../assets/fibohack/gdg.webp';
 import code4all from '../assets/fibohack/c4abg.png';
 const Fibohack = () => {
@@ -48,16 +48,15 @@ const Fibohack = () => {
         },
     ];
 
-
     const partners = [
         {
             name: 'Hackathon Club',
             logo: lnct,
         },
-        {
-            name: 'Bhopal Dao',
-            logo: bhopaldao,
-        },
+        // {
+        //     name: 'Bhopal Dao',
+        //     logo: bhopaldao,
+        // },
         {
             name: 'Code4All',
             logo: code4all,
@@ -141,13 +140,13 @@ const Fibohack = () => {
                 <div className="">
                     <Prizes prizes={prizes} /> {/* Use the Prizes component */}
                 </div>
-                {/* <div className="">
+                <div className="">
                     <Sponsers sponsers={sponsers} /> 
                 </div>
                 <div className="pt-16">
                     <Partners partners={partners} /> 
                 </div>
-                 */}
+                
                 <div className=" pt-32 lg:px-36 px-8 lg:flex-row flex-col flex justify-center gap-10 items-center">
                     <p className="font-semibold text-[2vmax]">"Think Big Code Bigger"</p>
                     {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
