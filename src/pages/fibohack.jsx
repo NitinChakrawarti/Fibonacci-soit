@@ -110,11 +110,11 @@ const Fibohack = () => {
                         <p className='text-left text-lg font-bold text-red-500'>
                             Registration Deadline: <span>October 25, 2024</span>
                         </p>
-                        <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
+                        {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
                             <button className='w-40 h-12 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
                                 Register Now
                             </button>
-                        </Link>
+                        </Link> */}
                     </div>
                     {/* Image Section */}
                     <img className="lg:w-[40%] rounded-lg" src={fibohack} alt="Fibohack Hackathon Event Poster" />
@@ -150,12 +150,12 @@ const Fibohack = () => {
                  */}
                 <div className=" pt-32 lg:px-36 px-8 lg:flex-row flex-col flex justify-center gap-10 items-center">
                     <p className="font-semibold text-[2vmax]">"Think Big Code Bigger"</p>
-                    <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
+                    {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
 
                         <button className='w-40 h-12 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
                             Register Now
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
