@@ -15,36 +15,31 @@ import workuprise from '../assets/fibohack/wu.jpg';
 import lnct from '../assets/fibohack/lnct.jpg';
 import moonsrobe from '../assets/fibohack/moonsrobe.png';
 import G_G from '../assets/fibohack/GG_Logo.png';
-// import bhopaldao from '../assets/fibohack/Vector-1.png';
 import gdg from '../assets/fibohack/gdg.webp';
 import code4all from '../assets/fibohack/c4abg.png';
+import ieee from '../assets/fibohack/ieee.jpg';
 const Fibohack = () => {
 
     const prizes = [
         {
-            title: '1st Prize',
-            amount: 'Disclosing Soon',
-            description: 'Awarded to the team with the best solution and overall execution.',
+            title: 'Swag kit + Certificate (by GeeksforGeeks)',
+
         },
         {
-            title: '2nd Prize',
-            amount: 'Disclosing Soon',
-            description: 'Recognizing the second-best idea and prototype development.',
+
+            title: 'Goodies + Certificate (by GeeksforGeeks)',
+
         },
         {
-            title: '3rd Prize',
-            amount: 'Disclosing Soon',
-            description: 'Given to the team with a unique approach and innovative idea.',
+
+            title: 'Coupons + Certificate (by GeeksforGeeks)',
+
         },
         {
-            title: 'Special Recognition',
-            amount: 'Disclosing Soon',
-            description: 'Awarded to the team that shows exceptional teamwork or creativity.',
+            title: 'Certificate of Participation',
         },
         {
-            title: 'Best Prototype',
-            amount: 'Disclosing Soon',
-            description: 'For the team that presents the most functional and advanced prototype.',
+            title: 'Many more exciting prizes',
         },
     ];
 
@@ -53,10 +48,10 @@ const Fibohack = () => {
             name: 'Hackathon Club',
             logo: lnct,
         },
-        // {
-        //     name: 'Bhopal Dao',
-        //     logo: bhopaldao,
-        // },
+        {
+            name: 'IEEE SOIT',
+            logo: ieee,
+        },
         {
             name: 'Code4All',
             logo: code4all,
@@ -107,7 +102,7 @@ const Fibohack = () => {
                             </p>
                         </div>
                         <p className='text-left text-lg font-bold text-red-500'>
-                            Registration Deadline: <span>October 25, 2024</span>
+                            Registration Deadline: <span>October 26, 2024</span>
                         </p>
                         {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
                             <button className='w-40 h-12 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
@@ -141,12 +136,12 @@ const Fibohack = () => {
                     <Prizes prizes={prizes} /> {/* Use the Prizes component */}
                 </div>
                 <div className="">
-                    <Sponsers sponsers={sponsers} /> 
+                    <Sponsers sponsers={sponsers} />
                 </div>
                 <div className="pt-16">
-                    <Partners partners={partners} /> 
+                    <Partners partners={partners} />
                 </div>
-                
+
                 <div className=" pt-32 lg:px-36 px-8 lg:flex-row flex-col flex justify-center gap-10 items-center">
                     <p className="font-semibold text-[2vmax]">"Think Big Code Bigger"</p>
                     {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>

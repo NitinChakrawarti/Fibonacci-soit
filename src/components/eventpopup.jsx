@@ -31,7 +31,7 @@ const EventPopup = () => {
 
                         <div className="md:flex flex flex-col-reverse">
                             <p className="text-lg mb-8 text-gray-700">
-                                We are excited to announce Fibohack (1.0), a thrilling hackathon event. Show off your coding skills, collaborate with others, and build innovative solutions! The registration deadline is <span className="font-bold">25th October</span>. Don’t miss out, register now!
+                                We are excited to announce Fibohack (1.0), a thrilling hackathon event. Show off your coding skills, collaborate with others, and build innovative solutions! The registration deadline is <span className="font-bold">26th October</span>. Don’t miss out, register now!
                             </p>
                             <div className="flex justify-center rounded-lg">
                                 <img

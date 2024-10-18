@@ -7,28 +7,28 @@ const timelineEvents = [
     },
     {
         title: 'Registration Period',
-        date: 'October 20 - October 25, 2024',
+        date: 'October 20 - October 26, 2024',
         description: 'Open registration for participants.',
     },
     {
         title: 'Idea Submission',
-        date: 'October 26 - November 2, 2024',
-        description: 'Participants submit their project ideas.',
+        date: 'October 26 - November 3, 2024',
+        description: 'Participants submit their project ideas online.',
     },
     {
         title: 'Selection from Submitted Ideas',
-        date: 'November 3, 2024',
+        date: 'November 4, 2024',
         description: 'Selected ideas will proceed to the next round for prototype development.',
     },
     {
         title: 'Prototype Development',
-        date: 'November 3 – November 8, 2024',
+        date: 'November 5 – November 10, 2024',
         description: 'Teams develop prototypes based on selected ideas.',
     },
     {
         title: 'Final Presentation & Judging',
-        date: 'November 11, 2024',
-        description: 'Teams present their prototypes for final evaluation.',
+        date: 'Date and venue to be announced',
+        description: 'Teams present their prototypes for final evaluation offline.',
     },
 ];
 
@@ -59,7 +59,7 @@ const Timeline = ({ events }) => {
             </div>
             <div className=" flex gap-4 justify-center pt-8 lg:pl-64">
                 <h1 className="text-red-500 font-semibold">Note: </h1>
-                <p className="text-white">Final Presentation and Judging will be offline in RGPV Conference Hall
+                <p className="text-white">Final Presentation and Judging will be offline.
                 </p>
 
             </div>

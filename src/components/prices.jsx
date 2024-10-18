@@ -9,8 +9,7 @@ const Prizes = ({ prizes }) => {
                 {prizes.map((prize, index) => (
                     <div key={index} className="bg_gradient hover:opacity-90 rounded-lg p-6 shadow-lg">
                         <h2 className="text-2xl font-bold text-black">{prize.title}</h2>
-                        <p className="text-xl font-semibold text-black/50">{prize.amount}</p>
-                        <p className="text-md text-gray-700 mt-2">{prize.description}</p>
+                     
                     </div>
                 ))}
             </div>
