@@ -18,7 +18,7 @@ const Team = () => {
             </div>
           </div>
           <div className="flex lg:justify-end lg:mt-20 mt-10 ">
-            <div className="lg:w-[100%] w-[100%]">
+            <div className="lg:w-[100%] w-[100%] flex flex-col items-end">
               <Teamcomponent />
             </div>
           </div>

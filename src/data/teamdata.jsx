@@ -10,6 +10,7 @@ import webDeveloper from '../assets/members/developer.jpg';
 import mentorContent from '../assets/members/contentmentor.jpg';
 import event from "../assets/members/eventmentor.jpg"
 import mentorSocialMedia from '../assets/members/mentorsocialmedia1.jpg';
+import tech from '../assets/members/techandmana.png';
 const TeamData = [
     {
         name: 'Surya Gupta',
@@ -32,14 +33,21 @@ const TeamData = [
         image: event,
         url: "https://www.linkedin.com/in/tanishq-badkul-8a948a26b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6aikm%2B5GQ46mvuogXEu9Sg%3D%3D"
     },
+    
     {
-        name: 'Sumbul shoaib',
+        name: 'Sumbul Shoaib',
         role: 'Co-founder (mentor Content writer)',
         year: 'Computer Science and Business System - 3rd Year',
         image: mentorContent,
         url: "https://www.linkedin.com/in/sumbul-shoaib-570058247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
-    
+    {
+        name: 'Sujal Shrivastava',
+        role: 'Co-founder (Management & Tech)',
+        year: 'Computer Science and Business System - 3rd Year',
+        image: tech,
+        url: "https://www.linkedin.com/in/sujal-shrivastava-355470250/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
     {
         name: 'Aakanksha Gautam',
         role: 'Content co-lead',

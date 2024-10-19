@@ -11,8 +11,13 @@ const timelineEvents = [
         description: 'Open registration for participants.',
     },
     {
+        title: 'Release of Problem Statements',
+        date: 'October 27, 2024',
+        description: 'Problem statements will be released online.',
+    },
+    {
         title: 'Idea Submission',
-        date: 'October 26 - November 3, 2024',
+        date: 'October 27 - November 3, 2024',
         description: 'Participants submit their project ideas online.',
     },
     {

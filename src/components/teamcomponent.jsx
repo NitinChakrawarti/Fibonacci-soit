@@ -8,7 +8,7 @@ const Teamcomponent = () => {
     <>
       {TeamData.map((data, key) => (
         <>
-          <Fade direction="up" triggerOnce="true" duration="1000" key={key} >
+          {/* <Fade direction="up" triggerOnce="true" duration="1000" key={key} > */}
             <div className="w-[90%] hover:border-primary duration-300 py-6 flex lg:flex-row border-b-2 flex-col lg:justify-start justify-center lg:items-start lg:px-4 items-center rounded-xl lg:gap-0 -gap-10 mb-20">
               <div className="w-[20vmax]">
                 <img className="h-[20vmax] lg:h-[10vmax] my-8 mg:mx-8 rounded-lg" src={data.image} />
@@ -26,7 +26,7 @@ const Teamcomponent = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </>
       ))}
     </>
