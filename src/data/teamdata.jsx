@@ -6,8 +6,9 @@ import campusMantri from '../assets/members/campusMantri.jpg';
 import content from '../assets/members/content.jpg';
 import graphics from '../assets/members/graphic.jpg';
 import socialMedia from '../assets/members/socialmedia1.png';
-// import socialMedia from '../assets/members/socialmedia.png';
 import webDeveloper from '../assets/members/developer.jpg';
+import mentorContent from '../assets/members/contentmentor.jpg';
+import event from "../assets/members/eventmentor.jpg"
 import mentorSocialMedia from '../assets/members/mentorsocialmedia1.jpg';
 const TeamData = [
     {
@@ -19,32 +20,26 @@ const TeamData = [
     },
     {
         name: 'Hardik Shah ',
-        role: 'Co- founder (Mentor Social Media)',
+        role: 'Co-founder (Mentor Social Media)',
         year: 'Computer Science and Business System - 3rd Year',
         image: mentorSocialMedia,
-        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+        url: "https://www.linkedin.com/in/hardik-shah-494402255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-        name: 'Surya Gupta',
-        role: 'Campus Mantri',
+        name: 'Tanishq Badkul',
+        role: 'Co-founder (mentor event department)',
         year: 'Computer Science and Business System - 3rd Year',
-        image: campusMantri,
-        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+        image: event,
+        url: "https://www.linkedin.com/in/tanishq-badkul-8a948a26b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6aikm%2B5GQ46mvuogXEu9Sg%3D%3D"
     },
     {
-        name: 'Surya Gupta',
-        role: 'Campus Mantri',
+        name: 'Sumbul shoaib',
+        role: 'Co-founder (mentor Content writer)',
         year: 'Computer Science and Business System - 3rd Year',
-        image: campusMantri,
-        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+        image: mentorContent,
+        url: "https://www.linkedin.com/in/sumbul-shoaib-570058247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
-    {
-        name: 'Surya Gupta',
-        role: 'Campus Mantri',
-        year: 'Computer Science and Business System - 3rd Year',
-        image: campusMantri,
-        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
-    },
+    
     {
         name: 'Aakanksha Gautam',
         role: 'Content co-lead',
