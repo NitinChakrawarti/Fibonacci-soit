@@ -121,7 +121,7 @@ const Fibohack = () => {
                 <div className=" py-8  pb-16 lg:px-36 px-8  bg_gradient">
                     <h1 className="text-[3vmax] text-left  font-bold text-white ">About Fibohack(1.0)</h1>
                     <div className="lg:flex items-center gap-32 pt-10 ">
-                        <img src={coding3} alt="Fibohack Hackathon Event Poster" className="rounded-lg w-full lg:w-[25.0%] " />
+                        <img src={coding3} alt="Fibohack Hackathon Event Poster" className="rounded-lg md:w-[70%] w-full lg:w-[25.0%] " />
                         <div className="leading-0 font-semibold text-left lg:text-center md:text-left md:leading-10 text-[#10291b] ">
                             Fibohack 1.0 is the ultimate hackathon brought to you by Fibonacci SOIT and sponsored by GeeksforGeeks. This event challenges participants to brainstorm innovative solutions to real-world problems through creative thinking.
                             Participants will be presented with a series of problem statements derived from real-life scenarios. They’ll pitch their ideas and then work on building prototypes to tackle these challenges. This hackathon is an ideal platform for those passionate about coding, creativity, and problem-solving.
@@ -130,7 +130,7 @@ const Fibohack = () => {
                     </div>
                 </div>
                 {/* timeline of hackathon */}
-                <div className="md:px-36 px-6 lg:pt-24 pt-24">
+                <div className="">
                     <Timeline />
                 </div>
                 <div className="">

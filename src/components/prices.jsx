@@ -8,7 +8,7 @@ const Prizes = ({ prizes }) => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 pt-10">
                 {prizes.map((prize, index) => (
                     <div key={index} className="bg_gradient hover:opacity-90 rounded-lg p-6 shadow-lg">
-                        <h2 className="text-2xl font-bold text-black">{prize.title}</h2>
+                        <h2 className="lg:text-2xl font-bold text-black/70">{prize.title}</h2>
                      
                     </div>
                 ))}

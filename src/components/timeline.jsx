@@ -35,7 +35,7 @@ const timelineEvents = [
 
 const Timeline = ({ events }) => {
     return (
-        <div className="container">
+        <div className="pt-20 lg:px-36 px-8">
             <h1 className="text-[3vmax] text-left  font-bold text-primary "> Timeline</h1>
             <div className="flex flex-col pt-8 md:grid grid-cols-12 text-gray-800">
                 {timelineEvents.map((event, index) => (
