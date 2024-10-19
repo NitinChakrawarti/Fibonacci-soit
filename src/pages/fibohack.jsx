@@ -18,6 +18,7 @@ import G_G from '../assets/fibohack/GG_Logo.png';
 import gdg from '../assets/fibohack/gdg.webp';
 import code4all from '../assets/fibohack/c4abg.png';
 import ieee from '../assets/fibohack/ieee.jpg';
+import Faq from '../components/fibohackfaq';
 const Fibohack = () => {
 
     const prizes = [
@@ -150,6 +151,12 @@ const Fibohack = () => {
                             Register Now
                         </button>
                     </Link> */}
+                </div>
+                <div className="pt-20 lg:px-36 px-8">
+                    <h1 className="text-[3vmax] text-left  font-bold text-primary ">FAQ'S</h1>
+                    <div className="w-full flex justify-end">
+                        <Faq /> {/* Use the Faq component */}
+                    </div>
                 </div>
             </div>
         </div>

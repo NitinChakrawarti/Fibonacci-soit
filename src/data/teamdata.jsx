@@ -5,9 +5,39 @@ import technicalHead from '../assets/members/technicalheaad.jpg';
 import campusMantri from '../assets/members/campusMantri.jpg';
 import content from '../assets/members/content.jpg';
 import graphics from '../assets/members/graphic.jpg';
-import socialMedia from '../assets/members/socialmedia.png';
+import socialMedia from '../assets/members/socialmedia1.png';
+// import socialMedia from '../assets/members/socialmedia.png';
 import webDeveloper from '../assets/members/developer.jpg';
+import mentorSocialMedia from '../assets/members/mentorsocialmedia1.jpg';
 const TeamData = [
+    {
+        name: 'Surya Gupta',
+        role: 'Founder',
+        year: 'Computer Science and Business System - 3rd Year',
+        image: campusMantri,
+        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+    },
+    {
+        name: 'Hardik Shah ',
+        role: 'Co- founder (Mentor Social Media)',
+        year: 'Computer Science and Business System - 3rd Year',
+        image: mentorSocialMedia,
+        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+    },
+    {
+        name: 'Surya Gupta',
+        role: 'Campus Mantri',
+        year: 'Computer Science and Business System - 3rd Year',
+        image: campusMantri,
+        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+    },
+    {
+        name: 'Surya Gupta',
+        role: 'Campus Mantri',
+        year: 'Computer Science and Business System - 3rd Year',
+        image: campusMantri,
+        url: "https://www.linkedin.com/in/surya-gupta-115356294?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bur8gmMzeRtSHaeMa%2F%2F5DbA%3D%3D"
+    },
     {
         name: 'Surya Gupta',
         role: 'Campus Mantri',
@@ -17,7 +47,7 @@ const TeamData = [
     },
     {
         name: 'Aakanksha Gautam',
-        role: 'Content Head',
+        role: 'Content co-lead',
         year: 'Computer Science and Business System - 2nd Year',
         image: content,
         url: "https://www.linkedin.com/in/aakanksha-gautam-95a5292a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -31,7 +61,7 @@ const TeamData = [
     },
     {
         name: 'Anchal Thakur',
-        role: 'Technical Head',
+        role: 'Technical co-lead',
         year: 'Computer Science and Business System - 2nd Year',
         image: technicalHead,
         url: "https://www.linkedin.com/in/anchal-thakur-a69102249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -45,7 +75,7 @@ const TeamData = [
     },
     {
         name: 'Shristi Tamrakar',
-        role: 'Graphics Head',
+        role: 'Graphics co-lead',
         year: 'Computer Science and Business System - 2nd Year',
         image: graphics,
         url: "https://www.linkedin.com/in/shristi-tamrakar-9178b9274"
