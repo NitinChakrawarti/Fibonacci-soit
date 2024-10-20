@@ -53,10 +53,7 @@ const Fibohack = () => {
             name: 'IEEE SOIT',
             logo: ieee,
         },
-        {
-            name: 'Code4All',
-            logo: code4all,
-        },
+        
         {
             name: 'GdG on Campus SOIT',
             logo: gdg,
