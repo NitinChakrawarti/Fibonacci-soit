@@ -13,8 +13,8 @@ const Teamcomponent = () => {
               <div className="w-[20vmax]">
                 <img className="h-[20vmax] lg:h-[10vmax] my-8 mg:mx-8 rounded-lg" src={data.image} />
               </div>
-              <div className=" flex flex-col gap-8 items-center lg:items-start ">
-                <div className=" lg:pt-5  text-white lg:text-start text-center">
+              <div className=" flex flex-col  gap-8 items-center lg:items-start ">
+                <div className=" lg:pt-5 max-w-[400px]  text-white lg:text-start text-center">
                   <h1 className="text-[3vmax] lg:text-[2vmax] font-bold">{data.name}</h1>
                   <p className="lg:text-[1.5vmax] md:text-[1.3vmax] font-bold opacity-80">{data.role}</p>
                   <p className="px-4 lg:px-0 font-bold opacity-80 text-[1.3vmax] md:text-[1vmax]">{data.year}</p>
