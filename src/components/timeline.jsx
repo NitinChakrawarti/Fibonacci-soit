@@ -6,7 +6,7 @@ const timelineEvents = [
         description: 'Announcement of the hackathon event.',
     },
     {
-        title: 'Registration Period',
+        title: 'Registration Period (closed)',
         date: 'October 20 - October 26, 2024',
         description: 'Open registration for participants.',
     },
