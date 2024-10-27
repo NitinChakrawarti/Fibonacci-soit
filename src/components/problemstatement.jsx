@@ -6,7 +6,7 @@ const problemStatements = [
         items: [
             {
                 title: 'Real-Time Safety Alerts System',
-                description: 'Develop a web and mobile application that allows women to send real-time alerts to trusted contacts or local authorities when they feel unsafe, incorporating geolocation and audio-visual recording features.'
+                description: 'Develop a web or mobile application that allows women to send real-time alerts to trusted contacts or local authorities when they feel unsafe, incorporating geolocation and audio-visual recording features.'
             },
             {
                 title: 'Emergency Response Dashboard',
@@ -19,7 +19,7 @@ const problemStatements = [
         items: [
             {
                 title: 'Interactive Learning Management System',
-                description: 'Design an interactive web and mobile application that incorporates gamification elements to enhance student engagement and allows teachers to customize lessons based on individual learning styles while also providing quality education to underserved communities.'
+                description: 'Design an interactive web or mobile application that incorporates gamification elements to enhance student engagement and allows teachers to customize lessons based on individual learning styles while also providing quality education to underserved communities.'
             }
         ]
     },
@@ -28,7 +28,7 @@ const problemStatements = [
         items: [
             {
                 title: 'Carbon Footprint Tracker',
-                description: 'Create a web and mobile application that helps users track their carbon footprint through daily activities, offering personalized tips and local resources for reducing their environmental impact, with a focus on mitigating global warming and promoting nature conservation at both global and community levels.'
+                description: 'Create a web or mobile application that helps users track their carbon footprint through daily activities, offering personalized tips and local resources for reducing their environmental impact, with a focus on mitigating global warming and promoting nature conservation at both global and community levels.'
             }
         ]
     },
@@ -37,11 +37,11 @@ const problemStatements = [
         items: [
             {
                 title: 'Meal Planning Application',
-                description: 'Build a web and mobile application that helps users plan meals based on dietary restrictions and preferences, providing recipes, nutritional information, and shopping lists that can integrate with local grocery delivery services.'
+                description: 'Build a web or mobile application that helps users plan meals based on dietary restrictions and preferences, providing recipes, nutritional information, and shopping lists that can integrate with local grocery delivery services.'
             },
             {
                 title: 'Fitness Community Platform',
-                description: 'Create a fitness community web and mobile platform that connects users with workout partners, tracks fitness goals, and offers personalized workout plans based on user data and preferences.'
+                description: 'Create a fitness community web or mobile platform that connects users with workout partners, tracks fitness goals, and offers personalized workout plans based on user data and preferences.'
             }
         ]
     },
@@ -50,11 +50,11 @@ const problemStatements = [
         items: [
             {
                 title: 'Local Events Discovery Platform',
-                description: 'Create a web and mobile platform for discovering and promoting local events, integrating features for user-generated content, RSVP management, and social media sharing to enhance community involvement.'
+                description: 'Create a web or mobile platform for discovering and promoting local events, integrating features for user-generated content, RSVP management, and social media sharing to enhance community involvement.'
             },
             {
                 title: 'Community Volunteer Connection',
-                description: 'Build a community-driven web and mobile platform that connects residents with local volunteer opportunities, featuring event calendars, skill matching tools, and social features to promote civic engagement.'
+                description: 'Build a community-driven web or mobile platform that connects residents with local volunteer opportunities, featuring event calendars, skill matching tools, and social features to promote civic engagement.'
             }
         ]
     },
@@ -63,11 +63,11 @@ const problemStatements = [
         items: [
             {
                 title: 'Climate Change Impact Simulator',
-                description: 'Design an interactive web and mobile application that simulates the potential impacts of climate change on local ecosystems, allowing youth to explore scenarios and understand the importance of conservation efforts.'
+                description: 'Design an interactive web or mobile application that simulates the potential impacts of climate change on local ecosystems, allowing youth to explore scenarios and understand the importance of conservation efforts.'
             },
             {
                 title: 'Youth Environmental Engagement Platform',
-                description: 'Build a web and mobile platform that connects youth with local environmental organizations for volunteer opportunities, promoting hands-on involvement in conservation and sustainability initiatives.'
+                description: 'Build a web or mobile platform that connects youth with local environmental organizations for volunteer opportunities, promoting hands-on involvement in conservation and sustainability initiatives.'
             }
         ]
     },
@@ -76,7 +76,7 @@ const problemStatements = [
         items: [
             {
                 title: 'Civic Engagement Portal for Youth',
-                description: 'Develop an interactive web and mobile site that encourages young people to engage in civic activities, offering resources on local issues, volunteer opportunities, and tools for organizing community events.'
+                description: 'Develop an interactive web or mobile site that encourages young people to engage in civic activities, offering resources on local issues, volunteer opportunities, and tools for organizing community events.'
             }
         ]
     }
