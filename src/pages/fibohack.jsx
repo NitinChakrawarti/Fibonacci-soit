@@ -54,7 +54,7 @@ const Fibohack = () => {
             name: 'IEEE SOIT',
             logo: ieee,
         },
-        
+
         {
             name: 'GdG on Campus SOIT',
             logo: gdg,
@@ -136,6 +136,15 @@ const Fibohack = () => {
                 </div>
                 <div>
                     <ProblemStatements />
+                    <div className=" pt-32 lg:px-36 px-8 lg:flex-row flex-col flex justify-center gap-10 items-center">
+                        <p className="font-semibold text-[2vmax]">"Think Big Code Bigger"</p>
+                        <Link to={"https://docs.google.com/document/d/1pzZhZGdIpFPfN6Drfg8ttccA2asfbb9iJQeGPkP4MO8/edit?usp=sharing"} target='_blank' className='flex justify-'>
+
+                            <button className='w-52 h-16 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
+                                Problem Statements
+                            </button>
+                        </Link>
+                    </div>
                 </div>
                 <div className="">
                     <Prizes prizes={prizes} /> {/* Use the Prizes component */}
@@ -149,7 +158,7 @@ const Fibohack = () => {
 
                 <div className=" pt-32 lg:px-36 px-8 lg:flex-row flex-col flex justify-center gap-10 items-center">
                     <p className="font-semibold text-[2vmax]">"Think Big Code Bigger"</p>
-                    {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
+                    {/* <Link to={"https://docs.google.com/document/d/1pzZhZGdIpFPfN6Drfg8ttccA2asfbb9iJQeGPkP4MO8/edit?usp=sharing"} target='_blank' className='flex justify-'>
 
                         <button className='w-40 h-12 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
                             Register Now
