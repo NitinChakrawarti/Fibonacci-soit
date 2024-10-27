@@ -19,6 +19,7 @@ import gdg from '../assets/fibohack/gdg.webp';
 import code4all from '../assets/fibohack/c4abg.png';
 import ieee from '../assets/fibohack/ieee.jpg';
 import Faq from '../components/fibohackfaq';
+import ProblemStatements from '../components/problemstatement';
 const Fibohack = () => {
 
     const prizes = [
@@ -102,9 +103,12 @@ const Fibohack = () => {
                         <p className='text-left text-lg font-bold text-red-500'>
                             Registration Deadline: <span>October 26, 2024</span> closed
                         </p>
-                        {/* <Link to={"https://lu.ma/aolh62q4"} target='_blank' className='flex justify-'>
-                            <button className='w-40 h-12 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
-                                Register Now
+                        <p className='text-lg  underline underline-offset-4 decoration-primary font-semibold'>
+                            Problem Statements are live now
+                        </p>
+                        {/* <Link to='' target='_blank' className='flex justify-'>
+                            <button className='w-44 h-16 bg-primary text-black rounded-lg font-bold text-lg hover:bg-primary/70'>
+                               Problem Statements
                             </button>
                         </Link> */}
                     </div>
@@ -129,6 +133,9 @@ const Fibohack = () => {
                 {/* timeline of hackathon */}
                 <div className="">
                     <Timeline />
+                </div>
+                <div>
+                    <ProblemStatements />
                 </div>
                 <div className="">
                     <Prizes prizes={prizes} /> {/* Use the Prizes component */}
