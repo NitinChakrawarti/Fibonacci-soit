@@ -16,7 +16,7 @@ const timelineEvents = [
         description: 'Problem statements will be released online.',
     },
     {
-        title: 'Idea Submission',
+        title: 'Idea Submission (closed)',
         date: 'October 27 - November 3, 2024',
         description: 'Participants submit their project ideas online.',
     },
