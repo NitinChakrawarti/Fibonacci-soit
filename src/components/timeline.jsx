@@ -22,12 +22,12 @@ const timelineEvents = [
     },
     {
         title: 'Selection from Submitted Ideas',
-        date: 'November 4, 2024',
+        date: 'November 4 - November 5 , 2024',
         description: 'Selected ideas will proceed to the next round for prototype development.',
     },
     {
         title: 'Prototype Development',
-        date: 'November 5 – November 10, 2024',
+        date: 'November 6 – November 10, 2024',
         description: 'Teams develop prototypes based on selected ideas.',
     },
     {
