@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FaCopyright } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { Fade } from "react-awesome-reveal";
-
+import soitLogo from '../assets/soit_logo.webp'
 export default function Footer() {
 
     return (
@@ -19,8 +19,9 @@ export default function Footer() {
                             <h1 className="font-extrabold  md:pt-4 md:text-[4vmax]  lg:text-[2vmax] text-text_dark">
                                 Fibonacci
                             </h1>
-                            <p className="lg:text-[1.3vmax] text-[1.9vmax] lg:w-[20vmax] text-text_dark/60 font-bold lg:leading-7"> School Of Information
-                                <br></br> Technology RGPV, Bhopal
+                            <p className="lg:text-[1.3vmax] text-[1.9vmax] pt-2 lg:w-[20vmax] text-text_dark/60 font-bold lg:leading-7">
+                                <span className="flex md:flex-row flex-col gap-2"> <span><img src={soitLogo} alt="" className="h-8 w-auto" /></span> School Of Information </span>
+                                Technology RGPV, Bhopal
                             </p>
                         </div>
                     </div>
@@ -31,10 +32,10 @@ export default function Footer() {
                                 <h1 className="lg:text-[1.9vmax] md:text-[3vmax] text-[2.6vmax] text-text_dark/90 font-bold">Pages</h1>
                                 <ul className="text-text_dark/70 flex flex-col lg:gap-0 gap-4 md:leading-9  leading-3 lg:pt-2 pt-4 md:pt-8 ">
                                     <Link to="/" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Home</Link>
-                                  
-                                    <Link to="/team" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Team</Link>
+
+                                    {/* <Link to="/team" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Team</Link> */}
                                     <Link to="/contact" className="hover:text-text_dark text-[1.9vmax] lg:text-[1.1vmax] font-bold flex items-center gap-2"> <FaArrowRight />  Contact</Link>
-                              
+
                                 </ul>
                             </div>
 

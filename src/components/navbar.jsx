@@ -18,8 +18,8 @@ export default function Nav() {
                             <ul className="flex items-center justify-between gap-6 md:gap-10 text-[1.6vmax] md:text-[1.2vmax] font-bold " >
                                 <Link className=" glow_btn_hover duration-300 "
                                     to="/"  >Home </Link>
-                                <Link className=" glow_btn_hover duration-300 "
-                                    to="/team" > Team </Link>
+                                {/* <Link className=" glow_btn_hover duration-300 "
+                                    to="/team" > Team </Link> */}
                                 <Link className="contact text  glow_btn_hover duration-300 " to="/contact" > Contact </Link>
                             </ul>
                         </div>
